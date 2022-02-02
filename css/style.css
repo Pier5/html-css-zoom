@@ -59,7 +59,7 @@ body {
 }
 
 .cam { 
-    flex-basis: 200px;
+    flex-basis: calc(1900px / 7 - 70px);
     position: relative;
 }
 

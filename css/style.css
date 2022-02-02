@@ -51,17 +51,15 @@ body {
 
 .container {
     display: flex;
-    margin: 10px 60px;
-    display: flex;
     gap: 10px 5px;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
     position: absolute;
+    justify-content: center;
     top: 8%;
-    width: calc(100% - 120px); 
 }
 
-.cam {
-    flex-basis: calc((100% - 35px) /7);
+.cam { 
+    flex-basis: 200px;
     position: relative;
 }
 
@@ -76,6 +74,6 @@ body {
     font-size: .6rem;
     font-weight: normal;
     border-radius: 0;
-    background-color: rgba(74, 74, 74, 0.3);;
+    background-color: rgba(74, 74, 74, 0.5);;
 }
 
